@@ -14,7 +14,8 @@
 		4125838B2468E598001F4232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412583892468E598001F4232 /* LaunchScreen.storyboard */; };
 		4125838E2468E598001F4232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4125838D2468E598001F4232 /* main.m */; };
 		412583992468E91E001F4232 /* NSFileManager+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 412583982468E91E001F4232 /* NSFileManager+TKAdd.m */; };
-		4125839C2468ECDF001F4232 /* PDFReaderVC_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4125839B2468ECDF001F4232 /* PDFReaderVC_1.m */; };
+		4125839C2468ECDF001F4232 /* TKPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4125839B2468ECDF001F4232 /* TKPreviewController.m */; };
+		4150F8092469A6E70010FB86 /* pdf_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4150F8082469A6E70010FB86 /* pdf_1.pdf */; };
 		710E66781ED437B60EF2ED71 /* libPods-PDFReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE79CCC2326ACF8EB14929 /* libPods-PDFReader.a */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +33,9 @@
 		4125838D2468E598001F4232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		412583972468E91E001F4232 /* NSFileManager+TKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TKAdd.h"; sourceTree = "<group>"; };
 		412583982468E91E001F4232 /* NSFileManager+TKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TKAdd.m"; sourceTree = "<group>"; };
-		4125839A2468ECDF001F4232 /* PDFReaderVC_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFReaderVC_1.h; sourceTree = "<group>"; };
-		4125839B2468ECDF001F4232 /* PDFReaderVC_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReaderVC_1.m; sourceTree = "<group>"; };
+		4125839A2468ECDF001F4232 /* TKPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPreviewController.h; sourceTree = "<group>"; };
+		4125839B2468ECDF001F4232 /* TKPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPreviewController.m; sourceTree = "<group>"; };
+		4150F8082469A6E70010FB86 /* pdf_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdf_1.pdf; sourceTree = "<group>"; };
 		A522B2A2D0EE199C2044BA8F /* Pods-PDFReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.release.xcconfig"; path = "Target Support Files/Pods-PDFReader/Pods-PDFReader.release.xcconfig"; sourceTree = "<group>"; };
 		EC1ED3EF0C27C8E6DFD39092 /* Pods-PDFReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.debug.xcconfig"; path = "Target Support Files/Pods-PDFReader/Pods-PDFReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,10 +85,11 @@
 				4125837C2468E594001F4232 /* AppDelegate.m */,
 				412583812468E594001F4232 /* ViewController.h */,
 				412583822468E594001F4232 /* ViewController.m */,
-				4125839A2468ECDF001F4232 /* PDFReaderVC_1.h */,
-				4125839B2468ECDF001F4232 /* PDFReaderVC_1.m */,
+				4125839A2468ECDF001F4232 /* TKPreviewController.h */,
+				4125839B2468ECDF001F4232 /* TKPreviewController.m */,
 				412583972468E91E001F4232 /* NSFileManager+TKAdd.h */,
 				412583982468E91E001F4232 /* NSFileManager+TKAdd.m */,
+				4150F8082469A6E70010FB86 /* pdf_1.pdf */,
 				412583842468E594001F4232 /* Main.storyboard */,
 				412583872468E598001F4232 /* Assets.xcassets */,
 				412583892468E598001F4232 /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				4125838B2468E598001F4232 /* LaunchScreen.storyboard in Resources */,
 				412583882468E598001F4232 /* Assets.xcassets in Resources */,
 				412583862468E594001F4232 /* Main.storyboard in Resources */,
+				4150F8092469A6E70010FB86 /* pdf_1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +207,7 @@
 				412583832468E594001F4232 /* ViewController.m in Sources */,
 				412583992468E91E001F4232 /* NSFileManager+TKAdd.m in Sources */,
 				4125837D2468E594001F4232 /* AppDelegate.m in Sources */,
-				4125839C2468ECDF001F4232 /* PDFReaderVC_1.m in Sources */,
+				4125839C2468ECDF001F4232 /* TKPreviewController.m in Sources */,
 				4125838E2468E598001F4232 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

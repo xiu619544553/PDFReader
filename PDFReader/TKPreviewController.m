@@ -1,11 +1,11 @@
 //
-//  PDFReaderVC_1.m
+//  TKPreviewController.m
 //  PDFReader
 //
 //  Created by hanxiuhui on 2020/5/11.
 //
 
-#import "PDFReaderVC_1.h"
+#import "TKPreviewController.h"
 #import <QuickLook/QuickLook.h>
 #import <Masonry.h>
 #import <YYKit.h>
@@ -16,7 +16,7 @@
 #define TKCacheeAbsolutePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]
 #define TKPDFCacheAbsolutePath [TKCacheeAbsolutePath stringByAppendingPathComponent:@"/PDFCache"]
 
-@interface PDFReaderVC_1 () <QLPreviewControllerDataSource>
+@interface TKPreviewController () <QLPreviewControllerDataSource>
 
 @property (nonatomic, copy) NSString *filePath;
 
@@ -25,7 +25,7 @@
 
 @end
 
-@implementation PDFReaderVC_1
+@implementation TKPreviewController
 
 #pragma mark - LifeCycle Methods
 
@@ -101,10 +101,6 @@
                 });
                 
             }];
-            
-            
-            
-            
         }
     }
 }

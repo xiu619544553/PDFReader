@@ -1,5 +1,5 @@
 //
-//  PDFReaderVC_1.h
+//  TKPreviewController.h
 //  PDFReader
 //
 //  Created by hanxiuhui on 2020/5/11.
@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// 支持 pdf、word、excel 等
-@interface PDFReaderVC_1 : UIViewController
+@interface TKPreviewController : UIViewController
 /// 网络链接
 @property (nonatomic, copy) NSString *networkUrl;
 /// 本地文件路径
