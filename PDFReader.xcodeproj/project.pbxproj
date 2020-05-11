@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4125837D2468E594001F4232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4125837C2468E594001F4232 /* AppDelegate.m */; };
+		412583832468E594001F4232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412583822468E594001F4232 /* ViewController.m */; };
+		412583862468E594001F4232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412583842468E594001F4232 /* Main.storyboard */; };
+		412583882468E598001F4232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412583872468E598001F4232 /* Assets.xcassets */; };
+		4125838B2468E598001F4232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412583892468E598001F4232 /* LaunchScreen.storyboard */; };
+		4125838E2468E598001F4232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4125838D2468E598001F4232 /* main.m */; };
+		412583992468E91E001F4232 /* NSFileManager+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 412583982468E91E001F4232 /* NSFileManager+TKAdd.m */; };
+		4125839C2468ECDF001F4232 /* PDFReaderVC_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4125839B2468ECDF001F4232 /* PDFReaderVC_1.m */; };
+		710E66781ED437B60EF2ED71 /* libPods-PDFReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE79CCC2326ACF8EB14929 /* libPods-PDFReader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BDE79CCC2326ACF8EB14929 /* libPods-PDFReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412583782468E594001F4232 /* PDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4125837B2468E594001F4232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4125837C2468E594001F4232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		412583812468E594001F4232 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		412583822468E594001F4232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		412583852468E594001F4232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		412583872468E598001F4232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4125838A2468E598001F4232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4125838C2468E598001F4232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4125838D2468E598001F4232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		412583972468E91E001F4232 /* NSFileManager+TKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TKAdd.h"; sourceTree = "<group>"; };
+		412583982468E91E001F4232 /* NSFileManager+TKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TKAdd.m"; sourceTree = "<group>"; };
+		4125839A2468ECDF001F4232 /* PDFReaderVC_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFReaderVC_1.h; sourceTree = "<group>"; };
+		4125839B2468ECDF001F4232 /* PDFReaderVC_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReaderVC_1.m; sourceTree = "<group>"; };
+		A522B2A2D0EE199C2044BA8F /* Pods-PDFReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.release.xcconfig"; path = "Target Support Files/Pods-PDFReader/Pods-PDFReader.release.xcconfig"; sourceTree = "<group>"; };
+		EC1ED3EF0C27C8E6DFD39092 /* Pods-PDFReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.debug.xcconfig"; path = "Target Support Files/Pods-PDFReader/Pods-PDFReader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412583752468E594001F4232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710E66781ED437B60EF2ED71 /* libPods-PDFReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140131297A75AE3B8487F830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE79CCC2326ACF8EB14929 /* libPods-PDFReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4125836F2468E594001F4232 = {
+			isa = PBXGroup;
+			children = (
+				4125837A2468E594001F4232 /* PDFReader */,
+				412583792468E594001F4232 /* Products */,
+				896003402327B34F345B04CC /* Pods */,
+				140131297A75AE3B8487F830 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		412583792468E594001F4232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412583782468E594001F4232 /* PDFReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4125837A2468E594001F4232 /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				4125837B2468E594001F4232 /* AppDelegate.h */,
+				4125837C2468E594001F4232 /* AppDelegate.m */,
+				412583812468E594001F4232 /* ViewController.h */,
+				412583822468E594001F4232 /* ViewController.m */,
+				4125839A2468ECDF001F4232 /* PDFReaderVC_1.h */,
+				4125839B2468ECDF001F4232 /* PDFReaderVC_1.m */,
+				412583972468E91E001F4232 /* NSFileManager+TKAdd.h */,
+				412583982468E91E001F4232 /* NSFileManager+TKAdd.m */,
+				412583842468E594001F4232 /* Main.storyboard */,
+				412583872468E598001F4232 /* Assets.xcassets */,
+				412583892468E598001F4232 /* LaunchScreen.storyboard */,
+				4125838C2468E598001F4232 /* Info.plist */,
+				4125838D2468E598001F4232 /* main.m */,
+			);
+			path = PDFReader;
+			sourceTree = "<group>";
+		};
+		896003402327B34F345B04CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ED3EF0C27C8E6DFD39092 /* Pods-PDFReader.debug.xcconfig */,
+				A522B2A2D0EE199C2044BA8F /* Pods-PDFReader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412583772468E594001F4232 /* PDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412583912468E598001F4232 /* Build configuration list for PBXNativeTarget "PDFReader" */;
+			buildPhases = (
+				173D44AA6F73ACE05EE50A0B /* [CP] Check Pods Manifest.lock */,
+				412583742468E594001F4232 /* Sources */,
+				412583752468E594001F4232 /* Frameworks */,
+				412583762468E594001F4232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFReader;
+			productName = PDFReader;
+			productReference = 412583782468E594001F4232 /* PDFReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412583702468E594001F4232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					412583772468E594001F4232 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 412583732468E594001F4232 /* Build configuration list for PBXProject "PDFReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4125836F2468E594001F4232;
+			productRefGroup = 412583792468E594001F4232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412583772468E594001F4232 /* PDFReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412583762468E594001F4232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4125838B2468E598001F4232 /* LaunchScreen.storyboard in Resources */,
+				412583882468E598001F4232 /* Assets.xcassets in Resources */,
+				412583862468E594001F4232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		173D44AA6F73ACE05EE50A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412583742468E594001F4232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412583832468E594001F4232 /* ViewController.m in Sources */,
+				412583992468E91E001F4232 /* NSFileManager+TKAdd.m in Sources */,
+				4125837D2468E594001F4232 /* AppDelegate.m in Sources */,
+				4125839C2468ECDF001F4232 /* PDFReaderVC_1.m in Sources */,
+				4125838E2468E598001F4232 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		412583842468E594001F4232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412583852468E594001F4232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		412583892468E598001F4232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4125838A2468E598001F4232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4125838F2468E598001F4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		412583902468E598001F4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412583922468E598001F4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1ED3EF0C27C8E6DFD39092 /* Pods-PDFReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tank.PDFReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		412583932468E598001F4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A522B2A2D0EE199C2044BA8F /* Pods-PDFReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tank.PDFReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412583732468E594001F4232 /* Build configuration list for PBXProject "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4125838F2468E598001F4232 /* Debug */,
+				412583902468E598001F4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412583912468E598001F4232 /* Build configuration list for PBXNativeTarget "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412583922468E598001F4232 /* Debug */,
+				412583932468E598001F4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412583702468E594001F4232 /* Project object */;
+}
